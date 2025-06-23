@@ -1,0 +1,12 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: meliuz/challenge-data-science
+  description: "# Desafio de Ci\xEAncia de Dados\n"
+  name: challenge-data-science
+spec:
+  lifecycle: production
+  type: service
