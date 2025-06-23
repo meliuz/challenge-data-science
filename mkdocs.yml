@@ -1,0 +1,6 @@
+---
+site_name: challenge-data-science
+nav:
+  - Home: README.md
+plugins:
+  - techdocs-core
