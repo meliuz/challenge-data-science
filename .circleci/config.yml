@@ -1,0 +1,16 @@
+version: 2.1
+
+orbs:
+  infra-orb: meliuz/infra-orb@1.23
+
+workflows:
+  build-docs:
+    jobs:
+      - infra-orb/build-docs:
+          name: build-docs
+          context: global
+          filters:
+            branches:
+              only:
+                - main
+                - master
