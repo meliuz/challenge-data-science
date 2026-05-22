@@ -5,7 +5,8 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: meliuz/challenge-data-science
-  description: "# Desafio de Ciência de Dados\n"
+  description: |
+    # Desafio de Ciência de Dados
   name: challenge-data-science
 spec:
   lifecycle: production
